@@ -1,0 +1,6 @@
+Album_Eminem 79 4
+Album_Metallica 99 3
+Album_Nirvana 89 8
+Album_PinkFloyd 109 5
+Album_Queen 99 2
+Album_Radiohead 99 0

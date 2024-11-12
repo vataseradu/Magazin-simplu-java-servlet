@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Info Client</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h3>Informatii Client</h3>
+<form action="GenerareChitantaServlet" method="post">
+	<label for="nume">Nume:</label>
+	<input type="text" id="nume" name="nume" required><br><br>
+
+	<label for="prenume">Prenume:</label>
+	<input type="text" id="prenume" name="prenume" required><br><br>
+
+	<label for="oras">Oras:</label>
+	<input type="text" id="oras" name="oras" required><br><br>
+
+	<label for="adresa">Adresa:</label>
+	<input type="text" id="adresa" name="adresa" required><br><br>
+
+	<label for="modalitatePlata">Modalitate de plata:</label>
+	<select id="modalitatePlata" name="modalitatePlata" required>
+		<option value="cash">Cash</option>
+		<option value="carte_credit">Carte de credit</option>
+	</select><br><br>
+
+	<input type="submit" value="Plateste">
+</form>
+</body>
+</html>
